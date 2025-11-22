@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belviano – Portfolio</title>
+  <meta name="description" content="Portfolio of Belviano Branding Studio – landing pages, logo design, posters, email campaigns and copywriting samples." />
+
+  <!-- Fonts + CSS from main site -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon (same as main site) -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="shortcut icon" href="favicon.png" type="image/png" />
+
+  <!-- Main styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="nav-inner">
+        <a href="index.html#top" class="logo-mark">
+          <div class="logo-icon">BBS</div>
+          <div class="logo-text">
+            <span>Belviano</span>
+            <span>Branding Studio</span>
+          </div>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html#services">Services</a>
+          <a href="index.html#process">Process</a>
+          <a href="index.html#pricing">Pricing</a>
+          <a href="index.html#testimonials">Results</a>
+          <a href="index.html#contact">Contact</a>
+          <a href="portfolio.html">Portfolio</a>
+        </nav>
+        <div class="nav-cta">
+          <div class="pill">
+            <span class="pill-dot"></span>
+            New case slots open
+          </div>
+          <button class="btn btn-primary" onclick="window.location.href='index.html#contact'">
+            Get a quote
+            <span>↗</span>
+          </button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+        </button>
+      </div>
+      <nav class="nav-links-mobile" id="mobileNav">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#process">Process</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#testimonials">Results</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="portfolio.html">Portfolio</a>
+        <button class="btn btn-primary" style="margin-top:0.7rem;width:100%;" onclick="window.location.href='index.html#contact'">
+          Get a quote
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- HERO / INTRO -->
+      <section class="section">
+        <div class="section-inner">
+          <div class="section-header">
+            <div class="section-title-block">
+              <div class="section-label">Portfolio</div>
+              <h2>Selected work across brands, pages, and campaigns.</h2>
+              <p>
+                A snapshot of landing pages, logos, poster designs, email flows and copywriting we’ve crafted for
+                founders, creators and local businesses. These are real structures and layouts you’ll get for your brand.
+              </p>
+            </div>
+            <div class="section-cta-small" style="flex-direction:column;align-items:flex-end;gap:0.5rem;">
+              <span>Want something similar for your brand?</span>
+              <button class="btn btn-ghost" onclick="window.location.href='index.html#contact'">
+                Start a project
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick category shortcuts -->
+          <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.5rem;">
+            <a href="#landing-pages" class="chip">
+              <span class="chip-dot"></span> Landing pages
+            </a>
+            <a href="#logos" class="chip">
+              <span class="chip-dot"></span> Logo design
+            </a>
+            <a href="#posters" class="chip">
+              <span class="chip-dot"></span> Posters & social
+            </a>
+            <a href="#emails" class="chip">
+              <span class="chip-dot"></span> Email campaigns
+            </a>
+            <a href="#copy" class="chip">
+              <span class="chip-dot"></span> Copywriting
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- LANDING PAGES -->
+      <section class="section" id="landing-pages">
+        <div class="services-grid">
+  <!-- Project 1: Summawise landing -->
+  <article class="service-card project-card">
+    <div class="project-thumb">
+      <img src="images/landing-summawise.png" alt="Landing page design for Summawise AI summarizer" />
+    </div>
+    <div class="project-body">
+      <div class="service-tag">SaaS</div>
+      <div class="service-title">Summawise – AI PDF Summarizer</div>
+      <p class="service-desc">
+        Clean hero, single CTA, problem–solution section and feature grid built to convert cold visitors
+        into free trials for Summawise.
+      </p>
+    </div>
+    <div class="service-meta">
+      <span><span class="highlight">Goal:</span> Free trial signups</span>
+      <span>Desktop + mobile layout</span>
+    </div>
+  </article>
+
+  <!-- Project 2: Benky Bites landing -->
+  <article class="service-card project-card">
+    <div class="project-thumb">
+      <img src="images/landing-benkybites.png" alt="Landing page for Benky Bites food brand" />
+    </div>
+    <div class="project-body">
+      <div class="service-tag">Food brand</div>
+      <div class="service-title">Benky Bites – Street Food Landing</div>
+      <p class="service-desc">
+        Bold visuals, menu highlight, customer reviews and WhatsApp CTA designed for a local food stall
+        to collect pre-orders.
+      </p>
+    </div>
+    <div class="service-meta">
+      <span><span class="highlight">Goal:</span> WhatsApp orders</span>
+      <span>One-page scroll</span>
+    </div>
+  </article>
+
+  <!-- Project 3: Fitness coach -->
+  <article class="service-card project-card">
+    <div class="project-thumb">
+      <img src="images/landing-fitness-coach.png" alt="Landing page for online fitness coaching" />
+    </div>
+    <div class="project-body">
+      <div class="service-tag">Service</div>
+      <div class="service-title">Online Fitness Coaching</div>
+      <p class="service-desc">
+        Story-driven page with transformation images, package comparison and calendar + WhatsApp CTA.
+      </p>
+    </div>
+    <div class="service-meta">
+      <span><span class="highlight">Goal:</span> Book consult calls</span>
+      <span>Social proof heavy</span>
+    </div>
+  </article>
+
+  <!-- Project 4: Workshop registration -->
+  <article class="service-card project-card">
+    <div class="project-thumb">
+      <img src="images/landing-workshop.png" alt="Workshop registration landing page design" />
+    </div>
+    <div class="project-body">
+      <div class="service-tag">Education</div>
+      <div class="service-title">Workshop Registration Page</div>
+      <p class="service-desc">
+        Focused layout with session details, bonuses and countdown-based CTA driving registrations.
+      </p>
+    </div>
+    <div class="service-meta">
+      <span><span class="highlight">Goal:</span> Registrations</span>
+      <span>Integrated Google Form</span>
+    </div>
+  </article>
+
+  <!-- Project 5: Product story page -->
+  <article class="service-card project-card">
+    <div class="project-thumb">
+      <img src="images/landing-product.png" alt="Story-based product page for a D2C brand" />
+    </div>
+    <div class="project-body">
+      <div class="service-tag">E-commerce</div>
+      <div class="service-title">Natural Product Story Page</div>
+      <p class="service-desc">
+        Long-form page explaining ingredients, benefits, reviews and FAQs for a single hero product.
+      </p>
+    </div>
+    <div class="service-meta">
+      <span><span class="highlight">Goal:</span> Add to cart</span>
+      <span>Long-form layout</span>
+    </div>
+  </article>
+</div>
+
+      </section>
+
+      <!-- LOGO DESIGN -->
+      <section class="section" id="logos">
+        <div class="section-inner">
+          <div class="section-header">
+            <div class="section-title-block">
+              <div class="section-label">Logos & Identity</div>
+              <h2>Logos that still look good in one color and 40px.</h2>
+              <p>
+                Each logo is designed with usage in mind — profile pictures, favicons, posters, invoices and social media.
+                Below are a few branding directions and marks.
+              </p>
+            </div>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="project-thumb">
+                <img src="images/minimal logo.png" alt="Story-based product page for a D2C brand" />
+              </div>
+              <div>
+                <div class="service-tag">Tech</div>
+                <div class="service-title">Minimal Monogram Mark</div>
+                <p class="service-desc">
+                  Clean monogram logo designed for app icon + favicon, ensuring clarity at tiny sizes.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Deliverables:</span> SVG, PNG</span>
+                <span>Usage guide</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="project-thumb">
+                <img src="images/food logo.png" alt="Story-based product page for a D2C brand" />
+              </div>
+              <div>
+                <div class="service-tag">Food</div>
+                <div class="service-title">Friendly Food Brand</div>
+                <p class="service-desc">
+                  Rounded wordmark with supporting badge icon for packaging and stall boards.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> Stall & social</span>
+                <span>Color + B/W</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="project-thumb">
+                <img src="images/aureum.png" alt="Story-based product page for a D2C brand" />
+              </div>
+              <div>
+                <div class="service-tag">Personal brand</div>
+                <div class="service-title">Signature + Symbol Combo</div>
+                <p class="service-desc">
+                  Signature-style main logo with a compact symbol for avatars and story highlights.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> Instagram</span>
+                <span>Light & dark modes</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="project-thumb">
+                <img src="images/geometric logo.png" alt="Story-based product page for a D2C brand" />
+              </div>
+              <div>
+                <div class="service-tag">Studio</div>
+                <div class="service-title">Geometric Studio Logo</div>
+                <p class="service-desc">
+                  Grid-based logo built around perfect shapes, with exports for print and web.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Files:</span> AI, PDF, PNG</span>
+                <span>Print-ready</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="project-thumb">
+                <img src="images/concept logo.png" alt="Story-based product page for a D2C brand" />
+              </div>
+              <div>
+                <div class="service-tag">Concept</div>
+                <div class="service-title">Experimental Concepts</div>
+                <p class="service-desc">
+                  A set of unused logo concepts kept for inspiration and future adaptations.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Status:</span> Concept only</span>
+                <span>Adaptable</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- POSTERS & SOCIAL -->
+      <section class="section" id="posters">
+        <div class="section-inner">
+          <div class="section-header">
+            <div class="section-title-block">
+              <div class="section-label">Posters & Social Creatives</div>
+              <h2>Promotional designs built to be understood in 3 seconds.</h2>
+              <p>
+                Clean, scroll-stopping visuals for stories, feeds and physical prints, always designed around one main message.
+              </p>
+            </div>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+                <div class="service-tag">Event</div>
+                <div class="service-title">Workshop Story Pack</div>
+                <p class="service-desc">
+                  A series of Instagram stories with date, benefits, social proof and swipe-up CTA.
+                </p>
+                <div class="project-thumb">
+                <img src="images/Insta story.png" alt="Story-based product page for a D2C brand" />
+              </div>
+              <div>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Format:</span> 1080×1920</span>
+                <span>6 variants</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Offer</div>
+                <div class="service-title">Festival Sale Poster</div>
+                <p class="service-desc">
+                  Poster adapted for print and digital, using bold discount callouts and simple layout.
+                </p>
+                <div class="project-thumb">
+                <img src="images/festive sale.png" alt="Story-based product page for a D2C brand" />
+              </div>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> Offline + reels</span>
+                <span>Brand colors used</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Branding</div>
+                <div class="service-title">Brand Story Carousel</div>
+                <p class="service-desc">
+                  5–7 slide carousel to explain the brand story, offer and next step in a simple flow.
+                </p>
+                <div class="project-thumb">
+                <img src="images/corousel.png" alt="Story-based product page for a D2C brand" />
+              </div>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Goal:</span> Save + share</span>
+                <span>Template based</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Menu</div>
+                <div class="service-title">Simple Menu Board</div>
+                <p class="service-desc">
+                  Menu poster optimized for quick scanning, using clear sections and pricing.
+                </p>
+                <div class="project-thumb">
+                <img src="images/simple menu.png" alt="Story-based product page for a D2C brand" />
+              </div>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> Stall / shop</span>
+                <span>Print-ready file</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Social</div>
+                <div class="service-title">Content Templates</div>
+                <p class="service-desc">
+                  Reusable post templates for quotes, carousels and announcements with your branding.
+                </p>
+                <div class="project-thumb">
+                <img src="images/content.png" alt="Story-based product page for a D2C brand" />
+              </div>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Tool:</span> Figma / Canva</span>
+                <span>Editable</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EMAIL SCRIPTS -->
+      <section class="section" id="emails">
+        <div class="section-inner">
+          <div class="section-header">
+            <div class="section-title-block">
+              <div class="section-label">Email Campaigns</div>
+              <h2>Flows and broadcasts that don’t feel like spam.</h2>
+              <p>
+                A few structure examples from welcome sequences, launch emails and simple nurture emails. Content is adapted
+                and rewritten for each brand tone.
+              </p>
+            </div>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Welcome flow</div>
+                <div class="service-title">3-Email Welcome Sequence</div>
+                <p class="service-desc">
+                  A simple sequence that introduces the brand, shares value and invites a clear next step.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> New subscribers</span>
+                <span>3 emails</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Launch</div>
+                <div class="service-title">Launch Campaign Structure</div>
+                <p class="service-desc">
+                  Soft announce → story → proof → FAQs → last call, spaced over a few days for offers and launches.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> New offer</span>
+                <span>5–7 emails</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Nurture</div>
+                <div class="service-title">Weekly Value Emails</div>
+                <p class="service-desc">
+                  Short, value-first emails designed to be read on mobile and drive replies rather than just clicks.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Goal:</span> Replies</span>
+                <span>Ongoing</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Template</div>
+                <div class="service-title">Cold Outreach Template</div>
+                <p class="service-desc">
+                  A short and direct cold email format focused on relevance and clear outcome, not hype.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> B2B / services</span>
+                <span>Customised per client</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Systems</div>
+                <div class="service-title">Email Infrastructure Setup</div>
+                <p class="service-desc">
+                  Custom sender domains, basic segmentation and tagging strategy to keep lists clean.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Tools:</span> Mailchimp, Sender etc.</span>
+                <span>Project-based</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- COPYWRITING SAMPLES -->
+      <section class="section" id="copy">
+        <div class="section-inner">
+          <div class="section-header">
+            <div class="section-title-block">
+              <div class="section-label">Copywriting</div>
+              <h2>Words that match your tone and move people.</h2>
+              <p>
+                Snippets from landing pages, ads and social content — written to be clear first, clever second. We adapt
+                the structure and voice to your audience.
+              </p>
+            </div>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Hero copy</div>
+                <div class="service-title">Hero Line Example</div>
+                <p class="service-desc">
+                  <em>“We turn crowded offers into simple messages your customers understand in 8 seconds.”</em>
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> Above-the-fold</span>
+                <span>SaaS / services</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Benefits</div>
+                <div class="service-title">Benefit Section Copy</div>
+                <p class="service-desc">
+                  Short, sharp bullets that translate features into outcomes, written for busy readers.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> Features → benefits</span>
+                <span>Page sections</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Social</div>
+                <div class="service-title">Content Hooks</div>
+                <p class="service-desc">
+                  Hooks for reels, carousels and posts designed to keep attention and connect to an offer naturally.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> Instagram / YouTube</span>
+                <span>Script + caption</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Ads</div>
+                <div class="service-title">Ad Copy Formats</div>
+                <p class="service-desc">
+                  Simple formats for performance ads: problem → twist → solution → CTA, tailored to each platform.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> Meta / Google</span>
+                <span>Multiple variants</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div>
+                <div class="service-tag">Story</div>
+                <div class="service-title">Founder's Story Section</div>
+                <p class="service-desc">
+                  Conversational founder story blocks that build trust without sounding scripted or fake.
+                </p>
+              </div>
+              <div class="service-meta">
+                <span><span class="highlight">Use:</span> About sections</span>
+                <span>Long-form</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA BACK TO CONTACT -->
+      <section class="section">
+        <div class="section-inner">
+          <div class="results-card">
+            <h3>Ready to create your own version of this?</h3>
+            <p>
+              If any of these examples match what you have in mind — or if you’re not sure where to start — we can help
+              you pick the right mix of logo, pages, posters, email and copy for your brand.
+            </p>
+            <div class="hero-cta-row" style="margin-top:0.4rem;">
+              <button class="btn btn-primary" onclick="window.location.href='index.html#contact'">
+                Start a project
+                <span>➝</span>
+              </button>
+              <button class="btn btn-ghost" onclick="window.location.href='index.html#pricing'">
+                View packages
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>© <span id="year"></span> Belviano Branding Studio. All rights reserved.</div>
+        <div class="footer-links">
+          <a href="#top">Back to top ↑</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#pricing">Pricing</a>
+          <a href="index.html#contact">Contact</a>
+          <a href="portfolio.html">Portfolio</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
